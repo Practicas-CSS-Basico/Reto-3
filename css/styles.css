@@ -19,6 +19,76 @@ Fuentes de la página
         Estilo 400
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
   background-color: #333;
+}
+
+.cards {
+  width: 90%;
+  height: 500px;
+  margin: 200px auto;
+  font-size: 0;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+  height: 100%;
+  padding-top: 3em;
+  padding-left: 2em;
+  font-size: 1rem;
+  color: hsl(0 0% 100% / 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card__title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.card__description {
+  width: 200px;
+}
+
+.card--orange {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card--cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card--dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card__cta {
+  position: absolute;
+  padding: 0.7em 2em;
+  background-color: #fff;
+  border-radius: 1.2em;
+  text-decoration: none;
+  bottom: 50px;
+}
+
+.card__cta--orange {
+  color: hsl(31, 77%, 52%);
+}
+
+.card__cta--cyan {
+  color: hsl(184, 100%, 22%);
+}
+
+.card__cta--dark-cyan {
+  color: hsl(179, 100%, 13%);
 }
