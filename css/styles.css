@@ -1,0 +1,24 @@
+/*
+Colores
+    Background: #333
+
+    Tarjetas
+        Orange: hsl(31, 77%, 52%)
+        Cyan: hsl(184, 100%, 22%)
+        Dark cyan: hsl(179, 100%, 13%)
+    
+    Texto
+        Blanco al 0.75 de opacidad
+
+Fuentes de la página
+    Títulos
+        https://fonts.google.com/specimen/Big+Shoulders+Display
+        Estilo 600
+    Textos
+        https://fonts.google.com/specimen/Lexend+Deca
+        Estilo 400
+*/
+
+body {
+  background-color: #333;
+}
